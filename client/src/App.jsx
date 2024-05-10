@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard'
 import SignIn from './pages/SignIn'
 import Projects from './pages/Projects'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 export default function Main(){
   return (
@@ -22,7 +23,7 @@ export default function Main(){
 
 
       </Routes>
-    
+      <Footer/>
     </BrowserRouter>
     
   )
